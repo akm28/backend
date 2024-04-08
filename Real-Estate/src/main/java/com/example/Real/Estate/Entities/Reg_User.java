@@ -20,7 +20,6 @@ import lombok.ToString;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 @ToString
 @Data
 public class Reg_User {
@@ -131,17 +130,7 @@ public class Reg_User {
 	public void setTime(LocalTime time) {
 		this.time = time;
 	}
-	
-	public Reg_User() {
-		
-	}
-	
-	
 
-	
-	
-
-	
 	
 
 }
