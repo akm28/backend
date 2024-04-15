@@ -52,6 +52,20 @@ public class RealEstateApplication implements CommandLineRunner{
 		
 		Reg_User newuser2=service.insert(user2);
 		
+		Reg_User user3= new Reg_User();
+		user3.setFirst_name("Ei");
+		user3.setLast_name("Zin");
+		user3.setEmail("eizin@gmail.com");
+		user3.setFavorite_id(3);
+		user3.setDate(LocalDate.now());
+		user3.setTime(LocalTime.now());
+		user3.setInterest_id(3);
+		user3.setPassword("87654321");
+		user3.setPhone("09445553336");
+		user3.setRole_id(3);
+		
+		Reg_User newuser3=service.insert(user3);
+		
 	}
  
 	
